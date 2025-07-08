@@ -1,19 +1,25 @@
 import React from "react";
 import "./App.css";
 
-export default function App() {
+function App() {
   return (
     <div className="App">
-      Weather app
-      <footer>
-        This project was codes by Esmee Peters{" "}
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
         <a
-          href="https://github.com/esmeep/week5-weerapp-react-"
+          className="App-link"
+          href="https://reactjs.org"
           target="_blank"
+          rel="noopener noreferrer"
         >
-          and is open-sourced on GitHub
+          Learn React
         </a>
-      </footer>
+      </header>
     </div>
   );
 }
+
+export default App;
