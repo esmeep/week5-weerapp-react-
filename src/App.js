@@ -6,10 +6,13 @@ export default function App() {
     <div className="App">
       Weather app
       <footer>
+        This project was codes by Esmee Peters{" "}
         <a
           href="https://github.com/esmeep/week5-weerapp-react-"
           target="_blank"
-        ></a>
+        >
+          and is open-sourced on GitHub
+        </a>
       </footer>
     </div>
   );
