@@ -12,6 +12,7 @@ export default function App() {
           <a
             href="https://github.com/esmeep/week5-weerapp-react-"
             target="_blank"
+            rel="noreferrer"
           >
             open-sourced on GitHub
           </a>
