@@ -18,7 +18,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       city: response.data.city,
 
-      icon_url: "https://ssl.gstatic.com/onebox/weather/64/cloudy.png",
+      icon_url: `https://ssl.gstatic.com/onebox/weather/64/${response.data.weather[0].icon}.png`,
     });
   }
 
